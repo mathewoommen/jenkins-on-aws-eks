@@ -1,4 +1,4 @@
-resource "kubernetes_manifest" "service" {
+/*resource "kubernetes_manifest" "service" {
   manifest = {
     "apiVersion" = "v1",
     "kind"       = "Service",
@@ -26,3 +26,4 @@ resource "kubernetes_manifest" "service" {
     }
   }
 }
+*/
